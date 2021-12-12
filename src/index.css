@@ -1,0 +1,87 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(226, 226, 226);
+}
+#root {
+  height: 99%;
+  width: 90%;
+  margin: 5% 0;
+  border: 1px solid black;
+  box-shadow: border;
+  background-color: white;
+}
+.row_1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5%;
+  margin-bottom: 0;
+  width: 90%;
+}
+.yellow_B {
+  width: 80%;
+  padding: 1%;
+  height: 100px;
+  margin: 2%;
+  background-color: rgb(246, 190, 56);
+}
+.row_2 {
+  display: flex;
+  justify-content: center;
+}
+.pink_B {
+  width: 88%;
+  height: 150px;
+  margin: 5%;
+  background-color: rgb(229, 34, 84);
+}
+
+.row_3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5%;
+  margin-top: 0;
+  width: 90%;
+}
+.blue_B {
+  width: 98%;
+  margin: 2%;
+  background-color: rgb(91, 97, 245);
+  height: 150px;
+}
+@media screen and(min-width:320px) {
+  .pink_B {
+    width: 0%;
+    margin: 1%;
+    padding: 20%;
+    height: 0;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 720px) {
+  .yellow_B {
+    width: 0%;
+    margin: 1%;
+    padding: 20%;
+    height: 0;
+  }
+}
+@media screen and (min-width: 721px) {
+  .yellow_B {
+    width: 48%;
+    height: 150px;
+    padding: 0;
+    margin: 1%;
+  }
+  .blue_B {
+    width: 30%;
+    margin: 1%;
+  }
+}
