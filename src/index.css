@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(212, 216, 219);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  text-align: center;
+}
+.Card {
+  background-color: white;
+  margin: 25%;
+  text-align: center;
+  width: fit-content;
+  padding: 1%;
+}
+.Data {
+  text-align: center;
+  padding: 1%;
+}
+h1 {
+  color: blue;
 }
