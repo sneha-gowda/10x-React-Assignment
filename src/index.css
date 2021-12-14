@@ -14,18 +14,17 @@ code {
 }
 
 #root {
-  text-align: center;
+  text-align: -webkit-center;
 }
 .Card {
+  width: max-content;
   background-color: white;
-  margin: 25%;
-  text-align: center;
-  width: fit-content;
+  margin-top: 10%;
   padding: 1%;
 }
 .Data {
   text-align: center;
-  padding: 1%;
+  padding: 2%;
 }
 h1 {
   color: blue;
