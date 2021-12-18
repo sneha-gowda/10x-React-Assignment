@@ -27,6 +27,7 @@
   margin: 2%;
   padding: 1%;
   border: 2px solid rgb(229, 229, 229);
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -35,4 +36,30 @@
 }
 .customer-info span {
   font-weight: lighter;
+}
+
+.order-info {
+  margin: 2%;
+  padding: 1%;
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  height: 7em;
+  background-color: rgb(234, 234, 234);
+  align-items: center;
+}
+.order-info div {
+  display: flex;
+  flex-direction: column;
+  height: 4em;
+  justify-content: space-between;
+  padding: 0 5%;
+  width: max-content;
+}
+.order-info p {
+  font-size: larger;
+}
+.order-info span {
+  color: rgb(128, 124, 124);
 }
