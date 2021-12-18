@@ -63,3 +63,23 @@
 .order-info span {
   color: rgb(128, 124, 124);
 }
+
+.product-list {
+  margin: 2%;
+  padding: 5%;
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  height: 7em;
+  align-items: center;
+}
+
+.imageData {
+  display: inline-flex;
+  margin: 2%;
+  justify-content: space-between;
+}
+.imageData div {
+  margin: 3%;
+}

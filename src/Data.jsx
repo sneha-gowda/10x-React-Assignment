@@ -8,8 +8,10 @@ const Data = [
         "Status":"In Progress",
         "Door":"Mark",
         "Time":"10:30",
-        "Date":"(25-05-2016)"
-
+        "Date":"(25-05-2016)",
+        "profileImg": 'https://www.w3schools.com/howto/img_avatar.png',
+        "Data1":"Boltaart Bosbessen",
+        "Data2":"Overheerlike Boltaart met Bosbessen it de keuken van de Bijenkorf."
     }
 ]
 export default Data;
