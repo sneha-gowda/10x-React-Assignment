@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Header {
+  background-color: rgb(250, 250, 250);
+  margin-top: 1%;
+  padding: 1% 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Header button {
+  background-color: black;
+  color: white;
+  font-size: large;
+  padding: 1% 2%;
+  border: 1px solid black;
+}
+.Header h3 {
+  color: rgb(160, 160, 160);
+}
